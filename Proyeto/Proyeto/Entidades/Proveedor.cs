@@ -13,9 +13,10 @@ namespace Proyecto.Entidades
         public string direc_Proveedor { get; set; }
         public int Telefono { get; set; }
         public string Celular { get; set; }
-        public int cod_distrito { get; set; }
+        
 
-        public List<Distrito> Distritos { get; set; }
-        public List<Producto> Productos { get; set; }
+        public Distrito Distrito { get; set; }
+        public int cod_distrito { get; set; }
+        public List<Producto> Producto { get; set; }
     }
 }

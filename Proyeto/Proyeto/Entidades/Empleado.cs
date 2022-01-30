@@ -11,7 +11,6 @@ namespace Proyecto.Entidades
         public int cod_Empleado { get; set; }
         public string nom_Empleado { get; set; }
         public string direc_Empleado { get; set; }
-        public int cod_Dis { get; set; }
         public string Cargo { get; set; }
         public string Edad { get; set; }
         public int Telefono { get; set; }
@@ -19,9 +18,10 @@ namespace Proyecto.Entidades
         public DateTime Ingreso { get; set; }
         public string Clave { get; set; }
 
-        public List<Distrito> Distritos { get; set; }
-        public List< Usuario> Usuarios { get; set; }
-        public List<OrdenPedido> OrdenPedidos { get; set; }
+        public Distrito Distrito { get; set; }
+        public int cod_Distrito { get; set; }
+        public List<Usuario> Usuario { get; set; }
+        public List<OrdenPedido> OrdenPedido { get; set; }
 
     }
 }

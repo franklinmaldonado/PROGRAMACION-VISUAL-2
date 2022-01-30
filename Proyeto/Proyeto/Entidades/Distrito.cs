@@ -11,9 +11,8 @@ namespace Proyecto.Entidades
         public int cod_Distrito { get; set; }
         public string nom_Distrito { get; set; }
 
-        public List<Proveedor> Proveedores { get; set; }
-        public List<Cliente> Clientes { get; set; }
-        public List<Empleado> Empleados { get; set; }
-        public List<Producto> Productos { get; set; }
+        public List<Proveedor> Proveedor { get; set; }
+        public List<Cliente> Cliente { get; set; }
+        public List<Empleado> Empleado { get; set; }
     }
 }

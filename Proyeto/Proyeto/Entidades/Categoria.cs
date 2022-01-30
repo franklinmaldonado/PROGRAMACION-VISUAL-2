@@ -11,6 +11,6 @@ namespace Proyecto.Entidades
         public int cod_Categoria { get; set; }
         public string nom_Descripcion { get; set; }
 
-        public List<Producto> Productos { get; set; }
+        public List<Producto> Producto { get; set; }
     }
 }

@@ -9,11 +9,11 @@ namespace Proyecto.Entidades
     {
         [Key]
         public int cod_Usuario { get; set; }
-        public string cod_Emple { get; set; }
         public string nivel_Us { get; set; }
         public string password { get; set; }
         public string activo { get; set; }
 
-        public List<Empleado> Empleados { get; set; }
+        public Empleado Empleado { get; set; }
+        public string cod_Empleado { get; set; }
     }
 }

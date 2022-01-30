@@ -1530,6 +1530,19 @@
           "lib/netstandard1.3/System.Xml.XmlSerializer.dll": {}
         }
       },
+      "CargaDatos/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v5.0",
+        "dependencies": {
+          "Proyecto": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/CargaDatos.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/CargaDatos.dll": {}
+        }
+      },
       "Proyecto/1.0.0": {
         "type": "project",
         "framework": ".NETCoreApp,Version=v3.1",
@@ -5843,6 +5856,11 @@
         "system.xml.xmlserializer.nuspec"
       ]
     },
+    "CargaDatos/1.0.0": {
+      "type": "project",
+      "path": "../CargaDatos/CargaDatos.csproj",
+      "msbuildProject": "../CargaDatos/CargaDatos.csproj"
+    },
     "Proyecto/1.0.0": {
       "type": "project",
       "path": "../Proyeto/Proyecto.csproj",
@@ -5856,6 +5874,7 @@
   },
   "projectFileDependencyGroups": {
     "net5.0": [
+      "CargaDatos >= 1.0.0",
       "Proyecto >= 1.0.0",
       "ProyectoDB >= 1.0.0"
     ]
@@ -5887,6 +5906,9 @@
         "net5.0": {
           "targetAlias": "net5.0",
           "projectReferences": {
+            "C:\\Users\\carlo\\Documents\\GitHub\\Programacion_Visual_2\\Proyeto\\CargaDatos\\CargaDatos.csproj": {
+              "projectPath": "C:\\Users\\carlo\\Documents\\GitHub\\Programacion_Visual_2\\Proyeto\\CargaDatos\\CargaDatos.csproj"
+            },
             "C:\\Users\\carlo\\Documents\\GitHub\\Programacion_Visual_2\\Proyeto\\ProyectoDB\\ProyectoDB.csproj": {
               "projectPath": "C:\\Users\\carlo\\Documents\\GitHub\\Programacion_Visual_2\\Proyeto\\ProyectoDB\\ProyectoDB.csproj"
             },
